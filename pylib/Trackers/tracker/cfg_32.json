@@ -1,0 +1,8 @@
+{
+	"Max_length": 128,
+	"Norm": 1000,
+	"Num_boxes": 36,
+	"Batch_size": 32,
+	"Freqs": [4, 8, 16, 32],
+	"FPS": 30
+}
