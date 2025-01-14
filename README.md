@@ -5,11 +5,9 @@ Hippo allows for high-throughput ingestion within video warehouse. This reposito
 Dataset
 -------
 The dataset consists of these components:
-commom dataset:
+
 Download and extract the dataset follow the URLs:
 https://github.com/favyen/otif
-
-new dataset:
 
 Installation
 ------------
