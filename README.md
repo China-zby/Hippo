@@ -21,14 +21,14 @@ git clone https://github.com/
 If using pip, please use the requirements.txt to install all required packages.
 Setup conda environment:
 ```bash
-	conda create -n hippo python=3.8
-    conda activate hippo
-    cd /path/to/Hippo/
-	pip install -r requirements.txt
+conda create -n hippo python=3.8
+conda activate hippo
+cd /path/to/Hippo/
+pip install -r requirements.txt
 ```
 Install Go:
 ```bash
-	sudo apt install golang
+sudo apt install golang
 ```
 Run Experiments
 ---------------
