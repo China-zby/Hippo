@@ -1,0 +1,81 @@
+database:
+  dataname: hippo
+  dataroot: /home/lzp/otif-dataset
+  datatype: train
+detectbase:
+  batchsize: 1
+  classes:
+  - car
+  - bus
+  - truck
+  count: 1
+  modelsize: XXL
+  modeltype: VFNET
+  threshold: 0.3
+deviceid: 1
+evaluatebase:
+  evaluatefilter: false
+  evaluateroi: false
+filterbase:
+  batchsize: 1
+  flag: false
+  modeltype: CNN
+  resolution:
+  - 320
+  - 192
+  threshold: 0.01
+logbase:
+  logroot: ./logs
+  saveroot: ./outputs
+  scene: hippo
+  weightroot: ./weights
+methodname: ./cache/info.yaml
+noisefilterbase:
+  flag: false
+postprocessbase:
+  postprocesstype: None
+record: true
+roibase:
+  batchsize: 1
+  denoisingflag: false
+  enhancetoolinfos:
+  - 1
+  - 1
+  - 3
+  - 25
+  equalizationflag: false
+  flag: false
+  modeltype: CNN
+  resolution:
+  - 416
+  - 256
+  saturationflag: false
+  sharpeningflag: false
+  threshold: 0.01
+  windowresolution:
+  - 640
+  - 352
+  windowsizes:
+  - - 640
+    - 352
+  - - 192
+    - 64
+  - - 64
+    - 32
+trackbase:
+  createobjectthreshold: 0.3
+  keepthreshold: 0.5
+  kfposweight: 1
+  kfvelweight: 1
+  matchlocationthreshold: 0.9
+  maxlosttime: 128
+  modeltype: DeepSORT
+  visualthreshold: 0.65
+videobase:
+  resolution:
+  - 720
+  - 480
+  scaledownresolution:
+  - 736
+  - 416
+  skipnumber: 8
