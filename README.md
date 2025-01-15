@@ -13,7 +13,7 @@ Installation
 ------------
 Clone this repository
 ```bash
-git clone https://github.com/https://anonymous.4open.science/r/Hippo-B74F
+git clone https://anonymous.4open.science/r/Hippo-B74F
 ```
 
 If using pip, please use the requirements.txt to install all required packages.
