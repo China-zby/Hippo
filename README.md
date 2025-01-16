@@ -5,7 +5,7 @@ Hippo allows for high-throughput ingestion within video warehouse. This reposito
 Dataset
 -------
 The dataset consists of these components:
-
+Tokyo, UAV, Warsaw, Amsterdam, Jackson, Caldot1, Caldot2 and Seattle.
 Download and extract the dataset follow the URLs:
 https://github.com/favyen/otif
 
@@ -53,6 +53,7 @@ Test with 100 video streams, using the default hippo method:
 python ./searchMethod/hippo/parallel_main.py --test_video_num_list 100 --method_list hippo
 ```
 Printing Query Performance 
+------------------------
 ```bash
 python ./pylib/experiments/plot_experiment_one.py
 ```
