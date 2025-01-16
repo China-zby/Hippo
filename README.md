@@ -9,7 +9,10 @@ The dataset consists of these components:
 Tokyo, UAV, Warsaw, Amsterdam, Jackson, Caldot1, Caldot2 and Seattle.
 
 Download and extract the dataset follow the URLs:
+
 https://github.com/favyen/otif
+
+https://web.seattle.gov/Travelers
 
 Installation
 ------------
